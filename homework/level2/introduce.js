@@ -8,5 +8,4 @@ const showMember = (members) =>{
         console.log(`이름: ${name}\n거주지: ${address}\n나이: ${age}\n취미: ${hobby}\n\n`);
     })
 };
-
 showMember(members);
