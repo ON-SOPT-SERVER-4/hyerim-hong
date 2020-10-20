@@ -1,7 +1,7 @@
 const members = [
     {
         name: "홍혜림",
-        address: "오리",
+        address: "오리역",
         age: 23,
         hobby: "집콕하기"
     },
