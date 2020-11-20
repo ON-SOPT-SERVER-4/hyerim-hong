@@ -5,15 +5,14 @@
 | id | name | email | pw | salt |
 |---|---|---|---|---|  
 
-#### PK : id
-
+ PK : id  
 
 ### [POST]
 |id|author|title|contents|createdAT|updatedAT|
 |---|---|---|---|---|---|
 
-#### PK : id
-#### FK : id From USER
+ PK : id
+ FK : id From USER
 
 
 
@@ -21,5 +20,5 @@
 |id|user_id|post_id|
 |---|---|---|
 
-#### PK : id
-#### FK : user_id From USER, post_id From POST
+ PK : id
+ FK : user_id From USER, post_id From POST
