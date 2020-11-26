@@ -34,4 +34,5 @@ var person = function(name, age) {
         age: age,
     };
 }
+
 var person = (name, age) => ({name: name, age: age});
